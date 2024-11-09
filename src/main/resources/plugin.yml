@@ -1,0 +1,5 @@
+name: Hub
+main: lol.vifez.hub.HubPlugin
+authors: [Vifez]
+version: 1.0-SNAPSHOT
+softdepend: [Vault, Glacial, Core, AquaCore]
