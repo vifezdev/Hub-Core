@@ -108,8 +108,8 @@ public class HubPlugin extends JavaPlugin {
     }
 
     private void sendStartupMessage() {
-        logMessage("&7&m------------------------------");
-        logMessage("&cvHub core");
+        logMessage(" ");
+        logMessage("&cvHub");
         logMessage(" ");
         logMessage("&fVersion: &c" + getDescription().getVersion());
         logMessage("&fProtocol: &c" + getServer().getBukkitVersion());
@@ -117,7 +117,7 @@ public class HubPlugin extends JavaPlugin {
         logMessage(" ");
         logMessage("&fSpigot: &c" + getServer().getName());
         logMessage("&fLoaded in &c" + (System.currentTimeMillis() - timeTracker) + "ms");
-        logMessage("&7&m------------------------------");
+        logMessage(" ");
     }
 
     private void logMessage(String message) {
